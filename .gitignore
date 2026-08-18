@@ -1,0 +1,12 @@
+# Never commit session data — rollouts contain full conversation transcripts
+*.jsonl
+sessions/
+archived_sessions/
+
+# Local reports that may embed session ids or token counts
+*.report.txt
+*.report.json
+
+__pycache__/
+*.py[cod]
+.DS_Store
